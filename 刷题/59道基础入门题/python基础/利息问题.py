@@ -24,3 +24,13 @@
 9780.0
 
 """
+
+P = float(input())
+R = float(input())
+T = float(input())
+
+interest = P * R * T * 0.01
+total_sum = P + interest
+
+print(interest)
+print(total_sum)

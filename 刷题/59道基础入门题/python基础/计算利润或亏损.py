@@ -16,3 +16,6 @@
 -7
 
 """
+cost_price = int(input())
+selling_price = int(input())
+print(cost_price - selling_price)

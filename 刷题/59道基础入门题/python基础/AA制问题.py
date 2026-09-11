@@ -14,7 +14,11 @@
 示例输出
 16.0
 """
+total_friends = int(input())
+total_bill = int(input())
 
+sum = float(total_bill * ( 1 + 0.2)) / total_friends
+print(sum)
 
 
 

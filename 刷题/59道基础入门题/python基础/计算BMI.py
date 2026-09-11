@@ -18,3 +18,8 @@ BMI = 体重/身高^2
 28.634434829095525
 
 """
+
+height = float(input())
+weight = float(input())
+bmi = weight / (height * height)
+print(f"{bmi:.2f}")

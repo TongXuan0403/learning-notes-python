@@ -18,3 +18,8 @@
 7.4375
 
 """
+
+hight = float(input())
+weight = float(input())
+
+print(1/2*(hight*weight))

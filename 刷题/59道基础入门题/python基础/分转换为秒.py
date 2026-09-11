@@ -14,3 +14,6 @@
 120
 
 """
+
+time_minutes = int(input())
+print(time_minutes*60)

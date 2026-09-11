@@ -11,3 +11,11 @@
 01/10/2000
 
 """
+
+month = str(input())
+day = str(input())
+year = str(input())
+
+print(f"{month}/{day}/{year}")
+
+
