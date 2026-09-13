@@ -1,0 +1,146 @@
+数据类型
+    数值型 int，float
+    布尔型 True=1  False=0
+    字符串型 str
+
+    容器型
+        list 列表 []
+        tuple 元组 ()
+        set 集合 {}
+        dict 字典 {key:val}
+
+
+字符串String
+字符串是不可变的、有序的。
+字符串中元素不可修改。
+字符串使用单引号、双引号或三重引号定义。
+字符串中每个值都有对应的位置值，称为索引或下标，索引从起始从0开始向后逐个递增，并且从末尾从-1开始逐个向前递减。
+
+
+创建字符串
+str1 = "hello world"
+
+访问字符串
+str1 = "hello world"
+print(str1[0])
+print(str1[-1])
+print(str1[4:-3])
+
+字符串相加
+str1 = "hello world"
+str2 = "dlrow olleh"
+print(str1 + str2)  # hello worlddlrow olleh
+
+字符串乘法
+str1 = "hello world"
+print(str1 * 2)  # hello worldhello world
+
+检查成员是否为字符串中元素
+str1 = "hello world"
+print("lo" in str1)  # True
+
+原始字符串
+所有的字符串按照字面意思处理，没有转义字符。需在字符串前加上r / R。
+print("hello\nworld")
+print(r"hello\nworld")
+
+
+常用函数
+
+str.replace(old,new[,max])	把将字符串中的old替换成new,如果指定max，则替换不超过max次
+str.split([x][,n])	按x分隔字符串，默认按任何空白字符串分隔并在结果中丢弃空字符串。可指定最大分隔次数
+str.rsplit([x][,n])	与split()类似，从右边开始分隔
+x.join(seq)	以x作为分隔符，将序列中所有的字符串合并为一个新的字符串
+str.strip([x])	截掉字符串两边的空格或指定字符
+str.lstrip([x])	截掉字符串左边的空格或指定字符
+str.rstrip([x])	截掉字符串右边的空格或指定字符
+str.removeprefix()	截掉字符串指定前缀
+str.removesuffix()	截掉字符串指定后缀
+str.upper()	将所有字符转为大写
+str.lower()	将所有字符转为小写
+str.swapcase()	反转字符串中字母大小写
+str.capitalize()	将字符串第一个字母变为大写，其他字母变为小写
+str.title()	将字符串每个单词首字母大写
+str.casefold()	返回适合无大小写比较的字符串版本
+len(str)	返回字符串长度
+max(str)	返回字符串中最大值
+min(str)	返回字符串中最小值
+str.find(x[,start][,end])	返回字符串中第一个x的索引值，不存在则返回-1，可指定字符串开始结束范围
+str.rfind(x[,start][,end])	与find()类似，从右边开始查找
+str.index(x[,start][,end])	返回字符串中第一个x的索引值，不存在则报错，可指定字符串开始结束范围
+str.rindex(x[,start][,end])	与index()类似，从右边开始查找
+str.count(x[,start][,end])	返回字符串中x的个数，可指定字符串开始结束范围
+str.startswith(x[,start][,end])	检查字符串是否以x开头，可指定字符串开始结束范围
+str.endswith(x[,start][,end])	检查字符串是否以x结尾，可指定字符串开始结束范围
+str.isspace()	检查字符串是否非空且只包含空白
+
+
+其他函数
+
+str.center(width[,x])	返回长度为width且居中的字符串，空白使用x填充，默认为空格
+str.ljust(width[,x])	返回长度为width且左对齐的字符串，空白使用x填充，默认为空格
+str.rjust(width[,x])	返回长度为width且右对齐的字符串，空白使用x填充，默认为空格
+str.zfill(width)	返回长度为width且右对齐的字符串，空白使用0填充
+str.splitlines([keepends])	按行分隔字符串，返回每行字符串组成的列表，可选是否保留换行符
+str.partition(x)	使用x将字符串分隔为3部分，如果分隔后不足3部分或字符串中没有x则以空白填充
+str.rpartition(x)	与partition()类似，从右边开始分隔
+str.encode(encoding='UTF-8',errors='strict')	对字符串使用指定格式编码，并指定错误处理方案
+str.expandtabs([tabsize])	将字符串中\t转化为空格，可指定每个\t空格数
+str.format_map(dict)	使用字典等映射关系数据来格式化字符串
+str.isalnum()	检查字符串是否非空且只包含字母(英文字母+汉字)和数字
+str.isalpha()	检查字符串是否非空且只包含字母(英文字母+汉字)
+str.isascii()	检查字符串是否只包含ASCII字符，空字符串也是ASCII
+str.isdecimal()	检查字符串是否非空且只包含十进制字符
+str.isdigit()	检查字符串是否非空且只包含数字
+str.isidentifier()	检查字符串是否是有效的标识符
+str.isupper()	检查字符串中是否包含至少一个区分大小写的字符，且所有这些(区分大小写的)字符都是大写
+str.islower()	检查字符串中是否包含至少一个区分大小写的字符，且所有这些(区分大小写的)字符都是小写
+str.isnumeric()	检查字符串是否非空且只包含数值字符
+str.isprintable()	检查字符串是否可打印
+str.istitle()	检查字符串是否非空且符合title格式
+str.maketrans(str1,str2[,str3])	生成翻译表供translate()使用。如果只传一个参数，它必须是将Unicode序号（整数）或字符映射到Unicode序号、字符串或None的字典。然后，字符键将转换为序数。如果传两个参数，需要str1和str2为等长的字符串，并且在生成的字典中，str1中的每个字符都将映射到str2中相同位置的字符。如果有第三个参数，它必须是一个字符串，其字符将在结果中映射到None
+str.translate()	使用给定的翻译表替换字符串中的每个字符
+
+
+列表List
+列表是一个可变的、有序的元素集合。
+列表使用 [] 定义，数据之间使用 , 分隔。
+列表中每个元素都有对应的位置值，称为索引或下标，索引从起始从0开始向后逐个递增，并且从末尾从-1开始逐个向前递减。
+列表中元素可以是不同的类型。
+
+
+元组Tuple
+元组是一个不可变的、有序的元素集合。
+不能对元组中的元素进行修改操作。
+元组使用 () 定义，数据之间使用,分隔。
+元组中每个元素都有对应的位置值，称为索引或下标，索引从起始从0开始向后逐个递增，并且从末尾从-1开始逐个向前递减。
+元组中元素可以是不同的类型。
+元组的使用方式与列表类似。
+
+集合Set
+集合是无序的，且不包含重复元素。
+集合使用 {} 定义，数据之间使用 , 分隔，也可以使用set()定义。
+集合没有索引，所以不能通过切片方式访问集合元素。
+集合中元素可以是不同的类型。
+集合可以进行数学上的集合操作，如并集、交集和差集。
+集合适用于需要快速成员检查、消除重复项和集合运算的场景。
+
+字典Dictionary
+一个无序的键值对集合，键是唯一的，而值可以重复。
+字典使用 {} 定义，键（key）和值（value）使用 : 连接，每个键值对之间使用 , 分隔。如{key1 : value1, key2 : value2}
+字典没有索引。
+字典可以通过键来获取对应的值。
+值可以取任何数据类型，但键必须是不可变的，如字符串、数字、元组。
+
+
+
+列表、元组、字典和集合的区别
+数据结构	         是否可变	   是否重复	     是否有序	    定义符号
+列表（List）	       可变	         允许	       有序	        []或list()
+元组（Tuple）	  不可变          允许	       有序	        ()或tuple()
+字典（Dictionary）  可变	      键不允许，值允许	   键无序	    {}或dict()
+集合（Set）	       可变	         不允许	       无序	        {}或set()
+
+
+
+
