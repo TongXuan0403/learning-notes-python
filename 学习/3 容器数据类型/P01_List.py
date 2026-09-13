@@ -1,7 +1,7 @@
 """
-    列表的基本操作
+    列表的基本使用
 """
-#创建列表 1用[]创建。2用list()创建
+#创建列表 1用[]创建。2用list()创建  3推导式
 
 # list1 = [100,200,300,400,500]
 # print(type(list1))
@@ -9,6 +9,9 @@
 
 # list1 = list([123,34])
 # print(type(list1))
+# print(list1)
+
+# list1 = list(i for i in range(10))
 # print(list1)
 
 #列表索引访问[下标]
