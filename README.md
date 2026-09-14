@@ -5,7 +5,7 @@
 本仓库是 30 天学习计划的落地仓库，包含两部分：
 
 - **学习笔记**（`学习/`）：11 个主题的知识速整笔记 + 可运行代码
-- **刷题练习**（`刷题/`）：59 道基础入门题（5 大分类）+ 每日自主做题
+- **刷题练习**（`刷题/`）：59 道基础入门题（5 大分类）+ Python100Days 39 题（对应「学习」11 个主题）+ 每日自主做题
 
 本 README 汇总 30 天计划的整体安排与每日学习进度。
 
@@ -87,6 +87,7 @@ learning-notes-python/
 │   │   ├── 标准模块/            # 3 题
 │   │   ├── 流程控制/            # 20 题
 │   │   └── 神奇的函数/          # 9 题
+│   ├── Python100Days/            # 骆昊 Python-100-Days 提取（39 题，按「学习」11 主题对应）
 │   └── 自主做题/                # 每日自主练习（P01_1day.py 起）
 ├── README.md                    # 本文件：30 天计划 + 每日学习记录
 └── .gitignore
@@ -179,6 +180,108 @@ learning-notes-python/
 - [打印全名.py](刷题/59道基础入门题/神奇的函数/打印全名.py)
 - [整数的幂.py](刷题/59道基础入门题/神奇的函数/整数的幂.py)
 - [计算圆面积.py](刷题/59道基础入门题/神奇的函数/计算圆面积.py)
+</details>
+
+### Python100Days（39 题，对应「学习」11 个主题）
+
+> 题目与示例提取自 [骆昊 Python-100-Days](https://github.com/jackfrued/Python-100-Days)（GPL-3.0），按「学习」目录的 11 个主题对应组织，边学边刷。
+
+<details>
+<summary>主题 1 · 基础语法（Day04 运算符 · 3 题）</summary>
+
+- [华氏温度转摄氏温度.py](刷题/Python100Days/Day04_华氏温度转摄氏温度.py)
+- [计算圆的周长和面积.py](刷题/Python100Days/Day04_计算圆的周长和面积.py)
+- [判断闰年.py](刷题/Python100Days/Day04_判断闰年.py)
+</details>
+
+<details>
+<summary>主题 2 · 流程控制（Day05 分支 / Day06 循环 / Day07 实战 · 11 题）</summary>
+
+- [分段函数求值.py](刷题/Python100Days/Day05_分段函数求值.py)
+- [百分制成绩转换成等级.py](刷题/Python100Days/Day05_百分制成绩转换成等级.py)
+- [计算三角形的周长和面积.py](刷题/Python100Days/Day05_计算三角形的周长和面积.py)
+- [判断素数.py](刷题/Python100Days/Day06_判断素数.py)
+- [最大公约数.py](刷题/Python100Days/Day06_最大公约数.py)
+- [猜数字游戏.py](刷题/Python100Days/Day06_猜数字游戏.py)
+- [100以内的素数.py](刷题/Python100Days/Day07_100以内的素数.py)
+- [斐波那契数列.py](刷题/Python100Days/Day07_斐波那契数列.py)
+- [寻找水仙花数.py](刷题/Python100Days/Day07_寻找水仙花数.py)
+- [百钱百鸡问题.py](刷题/Python100Days/Day07_百钱百鸡问题.py)
+- [CRAPS赌博游戏.py](刷题/Python100Days/Day07_CRAPS赌博游戏.py)
+</details>
+
+<details>
+<summary>主题 3 · 容器数据类型（Day09-13 示例 · 5 题）</summary>
+
+- [Day09_列表生成式.py](刷题/Python100Days/Day09_列表生成式.py)
+- [Day10_元组打包与解包.py](刷题/Python100Days/Day10_元组打包与解包.py)
+- [Day11_字符串常用方法.py](刷题/Python100Days/Day11_字符串常用方法.py)
+- [Day12_集合运算.py](刷题/Python100Days/Day12_集合运算.py)
+- [Day13_字典的应用.py](刷题/Python100Days/Day13_字典的应用.py)
+</details>
+
+<details>
+<summary>主题 4 · 函数（Day14-17 · 9 题）</summary>
+
+- [Day14_函数参数.py](刷题/Python100Days/Day14_函数参数.py)
+- [随机验证码.py](刷题/Python100Days/Day15_随机验证码.py)
+- [判断素数.py](刷题/Python100Days/Day15_判断素数.py)
+- [最大公约数和最小公倍数.py](刷题/Python100Days/Day15_最大公约数和最小公倍数.py)
+- [数据统计.py](刷题/Python100Days/Day15_数据统计.py)
+- [双色球随机选号.py](刷题/Python100Days/Day15_双色球随机选号.py)
+- [Day16_高阶函数与Lambda.py](刷题/Python100Days/Day16_高阶函数与Lambda.py)
+- [Day17_装饰器.py](刷题/Python100Days/Day17_装饰器.py)
+- [Day17_递归.py](刷题/Python100Days/Day17_递归.py)
+</details>
+
+<details>
+<summary>主题 5 · 文件操作（Day21 · 2 题）</summary>
+
+- [Day21_读写文本文件.py](刷题/Python100Days/Day21_读写文本文件.py)
+- [Day21_二进制文件拷贝.py](刷题/Python100Days/Day21_二进制文件拷贝.py)
+</details>
+
+<details>
+<summary>主题 6 · 面向对象（Day18 / Day20 · 4 题）</summary>
+
+- [时钟.py](刷题/Python100Days/Day18_时钟.py)
+- [平面上的点.py](刷题/Python100Days/Day18_平面上的点.py)
+- [扑克游戏.py](刷题/Python100Days/Day20_扑克游戏.py)
+- [工资结算系统.py](刷题/Python100Days/Day20_工资结算系统.py)
+</details>
+
+<details>
+<summary>主题 7 · 错误与异常（Day21 · 1 题）</summary>
+
+- [Day21_自定义异常.py](刷题/Python100Days/Day21_自定义异常.py)
+</details>
+
+<details>
+<summary>主题 8 · 模块与包（说明）</summary>
+
+100-Days 中 Day14（函数和模块）已在主题 4 覆盖；Day22（对象序列化）为 JSON 知识讲解、无独立可运行题目，建议结合笔记学习后做自主练习。
+</details>
+
+<details>
+<summary>主题 9 · Python 高级语法（说明）</summary>
+
+- 装饰器 / 递归见主题 4（Day17_装饰器.py、Day17_递归.py）。
+- 深浅拷贝、迭代器、生成器、闭包在 100-Days Day31 为知识提纲，无独立可运行题目，建议结合 `学习/9` 笔记练习。
+</details>
+
+<details>
+<summary>主题 10 · 进程与线程（说明）</summary>
+
+100-Days Day31「并发编程」为知识提纲（多线程 / 多进程 / 异步 I/O 概念与对比），无独立可运行题目，建议结合 `学习/10` 笔记学习。
+</details>
+
+<details>
+<summary>主题 11 · 正则表达式（Day30 · 4 题）</summary>
+
+- [验证输入用户名和QQ号是否有效并给出对应的提示信息.py](刷题/Python100Days/Day30_验证输入用户名和QQ号是否有效并给出对应的提示信息.py)
+- [从一段文字中提取出国内手机号码.py](刷题/Python100Days/Day30_从一段文字中提取出国内手机号码.py)
+- [替换字符串中的不良内容.py](刷题/Python100Days/Day30_替换字符串中的不良内容.py)
+- [拆分长字符串.py](刷题/Python100Days/Day30_拆分长字符串.py)
 </details>
 
 ### 自主做题
