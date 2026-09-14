@@ -5,7 +5,7 @@
 本仓库是 30 天学习计划的落地仓库，包含两部分：
 
 - **学习笔记**（`学习/`）：11 个主题的知识速整笔记 + 可运行代码
-- **刷题练习**（`刷题/`）：59 道基础入门题（5 大分类）+ 每日自主做题
+- **刷题练习**（`刷题/`）：59 道基础入门题（5 大分类）+ Python-100-Days 实战练习 23 题 + 每日自主做题
 
 本 README 汇总 30 天计划的整体安排与每日学习进度。
 
@@ -87,6 +87,7 @@ learning-notes-python/
 │   │   ├── 标准模块/            # 3 题
 │   │   ├── 流程控制/            # 20 题
 │   │   └── 神奇的函数/          # 9 题
+│   ├── Python100Days/          # 23 道实战练习（选自骆昊 Python-100-Days）
 │   └── 自主做题/                # 每日自主练习（P01_1day.py 起）
 ├── README.md                    # 本文件：30 天计划 + 每日学习记录
 └── .gitignore
@@ -179,6 +180,68 @@ learning-notes-python/
 - [打印全名.py](刷题/59道基础入门题/神奇的函数/打印全名.py)
 - [整数的幂.py](刷题/59道基础入门题/神奇的函数/整数的幂.py)
 - [计算圆面积.py](刷题/59道基础入门题/神奇的函数/计算圆面积.py)
+</details>
+
+### Python-100-Days 实战练习（23 题）
+
+> 题目与参考解答节选自[骆昊《Python-100-Days》](https://github.com/jackfrued/Python-100-Days)（GPL-3.0），按天整理为独立练习文件，可对照本地教程（`E:\AI学习\Python-100-Days-master`）学习。
+
+<details>
+<summary>Day 04 运算符（3 题）</summary>
+
+- [华氏温度转摄氏温度](刷题/Python100Days/Day04_华氏温度转摄氏温度.py)
+- [计算圆的周长和面积](刷题/Python100Days/Day04_计算圆的周长和面积.py)
+- [判断闰年](刷题/Python100Days/Day04_判断闰年.py)
+</details>
+
+<details>
+<summary>Day 05 分支结构（3 题）</summary>
+
+- [分段函数求值](刷题/Python100Days/Day05_分段函数求值.py)
+- [百分制成绩转换成等级](刷题/Python100Days/Day05_百分制成绩转换成等级.py)
+- [计算三角形的周长和面积](刷题/Python100Days/Day05_计算三角形的周长和面积.py)
+</details>
+
+<details>
+<summary>Day 06 循环结构（3 题）</summary>
+
+- [判断素数](刷题/Python100Days/Day06_判断素数.py)
+- [最大公约数](刷题/Python100Days/Day06_最大公约数.py)
+- [猜数字游戏](刷题/Python100Days/Day06_猜数字游戏.py)
+</details>
+
+<details>
+<summary>Day 07 分支和循环实战（5 题）</summary>
+
+- [100以内的素数](刷题/Python100Days/Day07_100以内的素数.py)
+- [斐波那契数列](刷题/Python100Days/Day07_斐波那契数列.py)
+- [寻找水仙花数](刷题/Python100Days/Day07_寻找水仙花数.py)
+- [百钱百鸡问题](刷题/Python100Days/Day07_百钱百鸡问题.py)
+- [CRAPS赌博游戏](刷题/Python100Days/Day07_CRAPS赌博游戏.py)
+</details>
+
+<details>
+<summary>Day 15 函数应用实战（5 题）</summary>
+
+- [随机验证码](刷题/Python100Days/Day15_随机验证码.py)
+- [判断素数](刷题/Python100Days/Day15_判断素数.py)
+- [最大公约数和最小公倍数](刷题/Python100Days/Day15_最大公约数和最小公倍数.py)
+- [数据统计](刷题/Python100Days/Day15_数据统计.py)
+- [双色球随机选号](刷题/Python100Days/Day15_双色球随机选号.py)
+</details>
+
+<details>
+<summary>Day 18 面向对象入门（2 题）</summary>
+
+- [时钟](刷题/Python100Days/Day18_时钟.py)
+- [平面上的点](刷题/Python100Days/Day18_平面上的点.py)
+</details>
+
+<details>
+<summary>Day 20 面向对象应用（2 题）</summary>
+
+- [扑克游戏](刷题/Python100Days/Day20_扑克游戏.py)
+- [工资结算系统](刷题/Python100Days/Day20_工资结算系统.py)
 </details>
 
 ### 自主做题
