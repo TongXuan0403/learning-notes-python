@@ -62,7 +62,7 @@
 | 09-12 | 准备 | 继续刷题巩固 | 自主写题 |
 | 09-13 | 准备 | 容器数据类型：列表、字符串（提前试学） | [P01_List.py](学习/3%20容器数据类型/P01_List.py)、[P02_String.py](学习/3%20容器数据类型/P02_String.py) |
 | 09-14 | Day 1 | 基础语法 + 流程控制复习（变量 / 类型 / 进制 / 运算符 / 分支 / 循环）；容器：元组、集合、字典；函数概念入门 | [day01_review.py](学习/1%20基础语法知识/day01_review.py)、[P03_Tuple.py](学习/3%20容器数据类型/P03_Tuple.py)、[P04_Set.py](学习/3%20容器数据类型/P04_Set.py)、[P05_Dict.py](学习/3%20容器数据类型/P05_Dict.py)、[P01_Concept.py](学习/4%20函数/P01_Concept.py)、[P01_1day.py](刷题/自主做题/P01_1day.py) |
-| 09-15 | Day 2 | 容器数据类型五类（list/str/tuple/set/dict）知识速整 + 分层 10 题，赶进度一天完成原计划 Day2–5 容器内容；完成 AI 批改（Q1/Q4/Q5/Q7/Q9 通过，Q2/Q8/Q10 待订正，小实战待做） | [day02_review.py](review/day02_review.py)、[P01_List.py](学习/3%20容器数据类型/P01_List.py)～[P05_Dict.py](学习/3%20容器数据类型/P05_Dict.py)、[read.txt](学习/3%20容器数据类型/read.txt)；批改与订正见 [每日一学.md](每日一学.md) |
+| 09-15 | Day 2 | 容器数据类型五类（list/str/tuple/set/dict）知识速整 + 分层 10 题，赶进度一天完成原计划 Day2–5 容器内容；完成 AI 批改（Q1/Q4/Q5/Q7/Q9 通过，Q2/Q8/Q10 待订正，小实战待做） | [day02_review.py](review/1day/day02_review.py)、[P01_List.py](学习/3%20容器数据类型/P01_List.py)～[P05_Dict.py](学习/3%20容器数据类型/P05_Dict.py)、[read.txt](学习/3%20容器数据类型/read.txt)；批改与订正见 [每日一学.md](每日一学.md) |
 
 ---
 
