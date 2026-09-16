@@ -37,6 +37,11 @@
 判存在	                    k in d	                    判断的是键，不是值
 计数套路	                    d[k]=d.get(k,0)+1	        统计题的条件反射
 
+dict.fromkeys(seq[default])         以sql这个序列中的元素，为key，创建新字典
+dict.setdefault(key[,default])      获取key的value,来设置默认值。key不存在会自动创建 
+
+
+
 集合 set（无序、不重复）：
 add 加
 remove（不存在报错）/discard（不报错） 删；
@@ -149,5 +154,12 @@ JSON 字符串 → 字典	json.loads(s)	                                    s = 
 类型对应	            dict↔object、list↔array、True↔true、None↔null	    JSON 里的 true/null 是小写，别和 Python 混
 
 
+函数	                        作用
+json.dumps(obj)	            Python 对象 → json 字符串（dump string）
+json.loads(s)	            json 字符串 → Python 对象（load string）
+json.dump(obj, fp)	        Python 对象 → 写入json 文件
+json.load(fp)	            读取 json 文件 → Python 对象
+
+json_str = json.dumps(data, indent=2, ensure_ascii=False)   indent=2表示缩进2格，ensure_ascii=False中文显示
 
 
