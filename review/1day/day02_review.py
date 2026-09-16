@@ -343,16 +343,18 @@ from numpy.ma.core import append
 # 按成绩降序的完整名单（列表 + 字典综合，面向对象案例的前置练习）
 
 
-dict1 = {}
+dic = {}
 while True:
     data = input().split()
-    if len(data) == 1 and data[0] == 'q':
+    if len(data) == 1 and data[0] == "q":
         break
-    name, score = data
-    dict1[name] = int(score)
-list1 = list(dict1.items())
-# print(dict1)
-print(list1)
+    name,age = data
+    dic[name] = int(age)
+print(len(dic))
+print(sum(dic.values()))
+print(sum(dic.values()) / len(dic),2)
+print(max(dic, key=dic.get))
+print(sorted(list(dic.items()),key=lambda x:-x[1]))
 
 
 

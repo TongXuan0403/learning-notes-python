@@ -1,0 +1,14 @@
+{
+  "code": 201,
+  "msg": "success",
+  "data": {
+    "answer": "Python很好学",
+    "tokens": 128
+  },
+  "choices": [
+    1,
+    2,
+    3
+  ],
+  "model": "qwen"
+}
