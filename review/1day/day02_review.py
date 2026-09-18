@@ -120,14 +120,9 @@ from numpy.ma.core import append
 # a) 生成 1~100 偶数的平方列表；b) 再筛出能被 3 整除的；c) 把 `["AbC","dEf"]` 全部转小写
 # list1 = [i**2 for i in range(1,101) if i % 2 == 0]
 
-# print([i**2 for i in range(1, 101) if i % 6 == 0])        # b) 偶数且被3整除=被6整除
-#
+# list1 = [i ** 2 for i in range(1, 101) if i % 6 == 0]
 
-# list2 = ["AbC","dEf"]
-# for i in list2:
-#     j=i.lower()
-#     print(j)
-# list2 = [i.lower() for i in ["AbC","dEf"]]
+# list2 = [i.lower() for i in ["AbC", "dEf"]]
 
 
 # 3. **字符串**：
@@ -150,17 +145,12 @@ from numpy.ma.core import append
 # 写函数 `min_max(nums)` 一次返回最小值和最大值，调用处解包成两个变量；
 # 再验证为什么 `(1)` 不是元组而 `(1,)` 是
 # def min_max(nums):
-#     min_value = min(nums)
-#     max_value = max(nums)
-#     return min_value, max_value
-# # 解包
-# data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# a, b = min_max(data)
-# print(a, b)
-
-# print(type((1)), type((1,)))
-
-
+#     max_l = max(nums)
+#     min_l = min(nums)
+#     return max_l, min_l
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(min(nums))
+# print(max(nums))
 
 # 5. **集合运算**：
 # `a={1,2,3,4}`、`b={3,4,5,6}`，输出交 / 并 / 差集；& | -

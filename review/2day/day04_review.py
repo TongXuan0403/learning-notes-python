@@ -296,6 +296,16 @@ import json
 # read_first_line("chat.txt")
 # 函数像一台自动售货机，`return` 是出货口，`print` 只是机器上亮了个灯
 
+# def read_first_line(path):
+#     try:
+#         with open(path,"r",encoding="utf-8") as f:
+#             return f.readline().strip()
+#     except FileNotFoundError:
+#         "文件不存在"
+#
+# print(read_first_line("chat.txt"))
+
+
 
 # **Q5【进阶・AI 场景】解析一次大模型返回**
 # 题目：给定字符串（模拟 API 响应）：
@@ -336,25 +346,30 @@ import json
 # 边界：遇到空行跳过。
 # 【本题用到】open 读写、`for line in f`、split、字典计数 `d[k]=d.get(k,0)+1`、write
 
-# with open("access.log","w",encoding="utf-8") as f:
-#     for i in range(10):
-#         str1 = input().strip()
-#         f.write(str1+"\n")
-# with open("access.log","r",encoding="utf-8") as f:
-#     d={}
-#     l = []
+# count_dict = {}
+# error_lines = []
+# with open("access.log", "r", encoding="utf-8") as f:
 #     for line in f:
-#         lines = f.readline()
-#         j1 = lines.split()
-#         l.append(j1)
-#
-#     for line in j1:
-#         if line.isalpha():
-#             k = line.lower()
-#             if k.islower():
-#                 d[k] = d.get(k,0)+1
-#     print(d)
+#         line = line.strip()
+        # 空行跳过
+        # if not line:
+        #     continue
+        # 按空白分割，格式：时间 级别 消息
+        # parts = line.split()
+        # level = parts[1]
 
+        # 字典计数 d.get(k,0)+1
+        # count_dict[level] = count_dict.get(level, 0) + 1
+        # 如果是ERROR，保存该行
+        # if level == "ERROR":
+        #     error_lines.append(line + "\n")
+
+# 把ERROR行写入error.log
+# with open("error.log", "w", encoding="utf-8") as f:
+#     f.writelines(error_lines)
+
+# 输出统计字典
+# print(count_dict)
 
 
 
@@ -363,20 +378,20 @@ import json
 # 调用处用 try-except-else-finally 完整结构：except 里用 `as e` 打印错误，else 里打印成功结果，
 # finally 打印 `"计算结束"`。分别用 (10,2)、(10,0) 调用，把两次完整输出贴上来，并说明 else 和 finally 各在什么时候执行。
 # 【本题用到】raise、try/except...as e、else、finally
-
-# def safe_div(a,b):
-#     try:
-#         if b == 0:
-#             raise ValueError("除数不能为0")
-#     except ValueError as e:
-#         return e
-#     else:
-#         return a / b
-#     finally:
-#         return "计算结束"
-
-# safe_div(10,2)
-# safe_div(10,0)
+# def safe_div(a, b):
+#     if b == 0:
+#         raise ValueError("除数不能为0")
+#     return a / b
+#
+# # ========== 第一次调用 safe_div(10,2) ==========
+# try:
+#     res = safe_div(10, 2)
+# except ValueError as e:
+#     print(f"捕获异常：{e}")
+# else:
+#     print(f"成功结果：{res}")
+# finally:
+#     print("计算结束")
 
 # 并说明 else 和 finally 各在什么时候执行
 # else是没有异常时执行  finally是只要结束就执行
