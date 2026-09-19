@@ -1,1 +1,1 @@
-[{"role": "user", "content": "还行"}, {"role": "assistant", "content": "[qwen] 对「还行」的回复（temperature=0.7）"}]
+[{"role": "user", "content": "a"}, {"role": "assistant", "content": "[qwen] 对「a」的回复（temperature=0.7）"}]

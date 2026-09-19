@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "怎么学装饰器"
+    },
+    {
+        "role": "user",
+        "content": "怎么学装饰器"
+    },
+    {
+        "role": "user",
+        "content": "怎么学装饰器"
+    },
+    {
+        "role": "user",
+        "content": "怎么学装饰器"
+    },
+    {
+        "role": "assistant",
+        "content": "先理解闭包"
+    }
+]

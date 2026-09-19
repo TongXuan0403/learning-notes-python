@@ -385,6 +385,20 @@ import re
 #         raise RuntimeError(f"网络抖动，第 {dic['n']} 次")
 # print(func())
 
+# def wrapper(*args, **kwargs):
+#     last_exc = None
+#     for i in range(times):
+#         try:
+#             result = func(*args, **kwargs)   # ① 先接住原函数返回值
+#             print(f"第 {i+1} 次成功")
+#             return result                    # ② 原样透传出去，别返回固定字符串
+#         except Exception as e:
+#             last_exc = e
+#             print(f"第 {i+1} 次失败：{e}，{delay}s 后重试")
+#             if i < times - 1:                # 可选打磨：最后一次失败就别再空等 delay 了
+#                 time.sleep(delay)
+#     raise last_exc
+
 
 # ---------- Q7【基础】functools.wraps 的作用 ----------
 # 题目：写两个版本的计时装饰器：

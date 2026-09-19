@@ -1,4 +1,4 @@
-# Python 30 天学习计划 · 学习笔记与刷题记录
+﻿# Python 30 天学习计划 · 学习笔记与刷题记录
 
 > 从零系统学习 Python：**每天一个主题，边学边敲、边学边刷**，30 天建立从基础语法到进阶特性的完整知识体系。
 
@@ -9,7 +9,7 @@
 
 本 README 汇总 30 天计划的整体安排与每日学习进度。
 
-**当前进度：Day 5 / 30（2026-09-16，已完成函数、文件操作+异常+JSON，面向对象知识已学/练习进行中，下一步 D6 模块包+高级语法+正则）**
+**当前进度：Day 7 / 30（2026-09-20，第一周完成！D6 模块包+迭代器生成器+装饰器+正则、D7 进程线程+周测已完成，下一步第二周巩固与小项目实战）**
 
 > 每日任务、AI 批改、薄弱点与订正项同步记录在 [每日一学.md](每日一学.md)（与豆包工作会话「Python 刷题学习方案」同步）。
 
@@ -28,17 +28,17 @@
 | 一、基础语法 | Day 7 | 09-20 | 函数进阶：嵌套 / 作用域 / 递归 / 匿名函数（已随 D3 提前完成） | `学习/4` `review/2day/day03_review.py` | 神奇的函数 9 题 | 已随 D3 完成 |
 | 一、基础语法 | Day 8 | 09-21 | 文件操作：打开关闭 / 文件读写 / 常用函数 / 文件拷贝（已随 D4 提前完成，09-16 中午） | `学习/5` `review/2day/day04_review.py` | — | 已随 D4 完成 |
 | 二、面向对象与异常 | Day 9 | 09-22 | 错误与异常：try-except / raise / 自定义异常（已随 D4 提前完成） | `学习/7` `review/2day/day04_review.py` | — | 已随 D4 完成 |
-| 二、面向对象与异常 | Day 10 | 09-23 | 模块与包：import / 包结构 / 模块使用 | `学习/8` | — | 待开始 |
-| 二、面向对象与异常 | Day 11 | 09-24 | 标准模块实战：math / random 等 | `学习/8` | 标准模块 3 题 | 待开始 |
+| 二、面向对象与异常 | Day 10 | 09-23 | 模块与包：import / 包结构 / 模块使用（已随 D6 完成，09-17） | `学习/8` `review/4day/my_math.py` | — | 已随 D6 完成 |
+| 二、面向对象与异常 | Day 11 | 09-24 | 标准模块实战：math / random 等（已随 D6 完成） | `学习/8` `review/4day/my_math.py` | 标准模块 3 题 | 已随 D6 完成 |
 | 二、面向对象与异常 | Day 12 | 09-25 | 面向对象：类与对象 / 属性 / 方法 / `__init__`（D5 知识已学，09-16 下午，练习进行中） | `学习/6` `review/3day/day05_practice.py` | — | D5 知识已学，练习进行中 |
 | 二、面向对象与异常 | Day 13 | 09-26 | 面向对象：封装（D5 知识已学） | `学习/6` `review/3day/day05_README.txt` | — | D5 知识已学 |
 | 二、面向对象与异常 | Day 14 | 09-27 | 面向对象：继承（D5 知识已学） | `学习/6` | — | D5 知识已学 |
 | 二、面向对象与异常 | Day 15 | 09-28 | 面向对象：多态 + 综合练习（D5 知识已学，练习待完成） | `学习/6` | — | D5 知识已学，练习待完成 |
-| 三、高级主题 | Day 16 | 09-29 | Python 高级语法：浅拷贝与深拷贝 / 命名空间 / 作用域 | `学习/9` | — | 待开始 |
-| 三、高级主题 | Day 17 | 09-30 | Python 高级语法：迭代器 / 生成器 | `学习/9` | — | 待开始 |
-| 三、高级主题 | Day 18 | 10-01 | Python 高级语法：闭包 / 装饰器 | `学习/9` | — | 待开始 |
-| 三、高级主题 | Day 19 | 10-02 | 进程与线程：多进程 / 多线程 / 对比（已预习知识整理，09-15 晚，代码待写） | `学习/10` | — | 已预习，代码待写 |
-| 三、高级主题 | Day 20 | 10-03 | 正则表达式：re 模块基础 | `学习/11` | — | 待开始 |
+| 三、高级主题 | Day 16 | 09-29 | Python 高级语法：浅拷贝与深拷贝 / 命名空间 / 作用域（已随 D6 完成） | `学习/9` `review/4day/day06_practice (1).py` | — | 已随 D6 完成 |
+| 三、高级主题 | Day 17 | 09-30 | Python 高级语法：迭代器 / 生成器（已随 D6 完成，重点） | `学习/9` `review/4day/day06_practice (1).py` | — | 已随 D6 完成 |
+| 三、高级主题 | Day 18 | 10-01 | Python 高级语法：闭包 / 装饰器（已随 D6 完成，重点） | `学习/9` `review/4day/day06_practice (1).py` | — | 已随 D6 完成 |
+| 三、高级主题 | Day 19 | 10-02 | 进程与线程：多进程 / 多线程 / 对比（已随 D7 完成，09-19~20） | `学习/10` `review/5day/day07_practice.py` | — | 已随 D7 完成 |
+| 三、高级主题 | Day 20 | 10-03 | 正则表达式：re 模块基础（已随 D6 完成，了解级别） | `学习/11` `review/4day/day06_practice (1).py` | — | 已随 D6 完成（了解） |
 | 三、高级主题 | Day 21 | 10-04 | 综合实战：自主做题 | `刷题/自主做题` | P01 起每日 1 题 | 待开始 |
 | 三、高级主题 | Day 22 | 10-05 | 综合实战：自主做题 | `刷题/自主做题` | 每日 1 题 | 待开始 |
 | 四、巩固冲刺 | Day 23 | 10-06 | 刷题巩固：59 题查漏补缺 | `刷题` | — | 待开始 |
@@ -65,6 +65,8 @@
 | 09-15 | Day 2 | 容器数据类型五类（list/str/tuple/set/dict）知识速整 + 分层 10 题，赶进度一天完成原计划 Day2–5 容器内容；完成 AI 批改（Q1/Q4/Q5/Q7/Q9 通过，Q2/Q8/Q10 待订正，小实战待做） | [day02_review.py](review/1day/day02_review.py)、[P01_List.py](学习/3%20容器数据类型/P01_List.py)～[P05_Dict.py](学习/3%20容器数据类型/P05_Dict.py)、[read.txt](学习/3%20容器数据类型/read.txt)；批改与订正见 [每日一学.md](每日一学.md) |
 | 09-15（晚） | Day 3 | D3 函数专题：定义/调用、参数五种形式（位置/默认/关键字/*args/**kwargs）、解包传参、强制位置/关键字参数（`/` 和 `*`）、return、闭包、作用域 LEGB、global/nonlocal、递归（阶乘）、匿名函数 lambda、map/filter/reduce、sorted+lambda 多级排序；完成 Q1–Q8（Q9 汉诺塔未完成，Q10 函数化改造有拼写错误）。同步预习进程与线程知识整理（并发并行/同步异步/进程创建4种方式/进程间通信Queue） | [day03_review.py](review/2day/day03_review.py)、[readme.txt](review/2day/readme.txt)、[readme.txt](学习/10%20进程与线程/readme.txt)；详见 [每日一学.md](每日一学.md) |
 | 09-16 | Day 4–5 | D4 文件操作+异常+JSON：open/close、with 自动关闭、读写（write/writelines/read/readline/readlines/逐行for）、文件拷贝 copyFile、异常体系、try-except-else-finally、raise/assert、自定义异常 MyError、异常传递、json 四兄弟（dump/dumps/load/loads）；完成 copyFile 3版本 + Q1–Q3，Q4/Q6/Q7/Q8 待还债巩固。D5 面向对象：知识卡完整（类与对象/__init__/self/类属性vs实例属性/三种方法/封装/继承多态/魔术方法），练习册框架已写（W1–W7 热身 + Q1–Q10），代码待开始 | [day04_review.py](review/2day/day04_review.py)、[day05_practice.py](review/3day/day05_practice.py)、[day05_README.txt](review/3day/day05_README.txt)、[knowledge_organize.md](review/knowledge_organize.md)；详见 [每日一学.md](每日一学.md) |
+| 09-17 | Day 6 | D6 模块包+高级语法+正则：模块与包（import/from/as/__init__.py/相对导入）、虚拟环境pip、浅拷贝vs深拷贝、迭代器（__iter__/__next__/StopIteration）、生成器（yield/生成器表达式/惰性求值/生成器管道，对应LLM流式输出）、闭包（复习）、装饰器（本质/语法糖/执行时机/不带参两层/带参三层/functools.wraps/多装饰器叠加洋葱模型）、正则re（findall/sub，了解级别）；完成 W1–W7 热身 + Q1–Q10 正式题（含 FibIterator、日志装饰器、retry装饰器等），my_math 包练习 | [day06_README.md（调整版：生成器管道_装饰器执行时机扩充，正则标了解）.md](review/4day/day06_README.md（调整版：生成器管道_装饰器执行时机扩充，正则标了解）.md)、[day06_practice (1).py](review/4day/day06_practice%20(1).py)、[my_math.py](review/4day/my_math.py)、[my_math/__init__.py](review/4day/my_math/__init__.py)；详见 [每日一学.md](每日一学.md) |
+| 09-19~20 | Day 7 | D7 进程线程+周测（第一周收官）：进程vs线程（资源分配vs调度执行/独立内存vs共享内存/选型）、多线程threading（Thread/start/join）、线程池ThreadPoolExecutor（submit/future.result/map）、互斥锁Lock（with lock/丢更新/死锁）、GIL（CPU密集多进程/IO密集多线程）、多进程multiprocessing（Process/Windows __main__守卫/进程池Pool.map）；完成 W1–W5 热身 + Q1–Q10 正式题（含异常隔离Q9）、D6-Q6 带参retry装饰器白纸默写、D6 practice 改bug（Q3 FibIterator/Q5日志装饰器函数名/Q7无wraps对比版）、D4 换皮复测（JSON持久化/异常分层/return） | [day07_README.md（修订版·严格对应讲义第14章）.md](review/5day/day07_README.md（修订版·严格对应讲义第14章）.md)、[day07_practice.py](review/5day/day07_practice.py)、[favorites.json](review/5day/favorites.json)、[tickets.log](review/5day/tickets.log)、[results.json](review/5day/results.json)；详见 [每日一学.md](每日一学.md) |
 
 ---
 
@@ -88,6 +90,8 @@ learning-notes-python/
 │   ├── 1day/                    # D1 基础语法 + D2 容器数据类型（day01/day02_review.py）
 │   ├── 2day/                    # D3 函数 + D4 文件操作异常JSON（day03/day04_review.py + readme）
 │   ├── 3day/                    # D5 面向对象（day05_practice.py + day05_README.txt 知识卡）
+│   ├── 4day/                    # D6 模块包+高级语法+正则（day06_README.md 知识卡 + day06_practice.py + my_math 包）
+│   ├── 5day/                    # D7 进程线程+周测（day07_README.md 知识卡 + day07_practice.py + 练习产物）
 │   └── knowledge_organize.md    # 知识整理汇总：列表/字符串/字典/集合/函数/文件操作异常JSON 方法地图
 ├── 刷题/                        # 刷题练习
 │   ├── 59道基础入门题/           # 五大分类（当前已收录 58 道）
